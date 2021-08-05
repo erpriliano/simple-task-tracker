@@ -5,7 +5,7 @@ function Task({ task, onDelete, onToggle }) {
     return (
         <div
             className={`task ${task.reminder ? `reminder` : ``}`}
-            onClick={onToggle}
+            onDoubleClick={onToggle}
         >
             <h3>
                 {task.text}{' '}

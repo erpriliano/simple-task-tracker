@@ -3,6 +3,8 @@ import { UserContext } from './commons/UserContext'
 import Home from './pages/Home'
 import Login from './pages/Login'
 
+// Test github
+
 function App() {
     const [auth, setAuth] = useState(false)
     return (
